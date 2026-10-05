@@ -114,3 +114,6 @@ img{max-width:100%}
 .legal-links{display:flex;gap:18px}
 @media(max-width:900px){.cmp,.split,.faq{grid-template-columns:1fr}.steps{grid-template-columns:1fr 1fr}.footer-grid{grid-template-columns:1fr 1fr}.sec{padding:56px 20px}}
 @media(max-width:560px){.steps,.footer-grid{grid-template-columns:1fr}}
+
+/* Form success state: the hidden attribute must always win over display rules (form hides on success, returns on "Submit another request"). */
+[hidden]{display:none!important}
