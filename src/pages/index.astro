@@ -28,6 +28,7 @@ const steps = [
 <Base title={home.title} description={home.desc} path="/" extraSchema={[faqSchema(home.faqs)]}>
   <Hero headline={home.h1} intro={home.intro} location="Homepage" eyebrow="Kettering, Ohio" />
   <section class="sec sec-low"><div class="sec-in">
+    <span class="sec-kicker">Choosing a method</span>
     <h2 class="sec-title">Hydro jetting or rodding?</h2>
     <p class="sec-lead">Both clear lines. Neither repairs a damaged pipe, and neither should be picked from the symptom alone.</p>
     <div class="cmp">
@@ -40,12 +41,14 @@ const steps = [
     </div>
   </div></section>
   <section class="sec sec-cream"><div class="sec-in">
+    <span class="sec-kicker">Services</span>
     <h2 class="sec-title">Cleaning matched to the problem</h2>
     <p class="sec-lead">Pick the kind of blockage you are dealing with. Each page covers what to check and what to ask.</p>
     <div class="svc-grid">{services.map((s) => <a class="svc" href={u(`/services/${s.slug}/`)}><span class="svc-ico"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" set:html={icons[s.icon]} /></span><span class="eb">Service</span><h3>{s.name}</h3><p>{s.blurb}</p><span class="arrow">Learn more &rarr;</span></a>)}</div>
   </div></section>
   <section class="sec sec-white"><div class="sec-in split">
     <div>
+      <span class="sec-kicker">Local housing</span>
       <h2 class="sec-title">Older neighborhoods, documented history</h2>
       <p class="sec-lead" style="margin:0">Kettering's housing history is on the public record, and it is useful context. It does not diagnose a pipe.</p>
       <div class="callout-box"><p set:html={`<a href="${UTIL}" ${ext}>The city utilities page</a> says some Kettering neighborhoods are nearly 100 years old, and that a broken or collapsed service line to the sewer is the homeowner's repair.`} /></div>
@@ -53,6 +56,7 @@ const steps = [
     <div class="lb-list">{neighborhoods.map((n) => <a class="lb" href={u(`/neighborhood/${n.slug}/`)}><h3>{n.name}</h3><p>{n.intro}</p></a>)}</div>
   </div></section>
   <section class="sec sec-low"><div class="sec-in">
+    <span class="sec-kicker">Process</span>
     <h2 class="sec-title">From symptoms to a sensible next step</h2>
     <div class="steps">{steps.map((s, i) => <div class="step"><span class="num">{String(i + 1).padStart(2, '0')}</span><h3>{s.t}</h3><p>{s.d}</p></div>)}</div>
   </div></section>
@@ -62,6 +66,7 @@ const steps = [
   </div></section>
   <Callout title="Sewage backing up? Call now." text="Keep people away from the affected area, then describe what is happening and whether the line has backed up before." />
   <section class="sec sec-cream"><div class="sec-in">
+    <span class="sec-kicker">Coverage</span>
     <h2 class="sec-title">Kettering neighborhoods</h2>
     <p class="sec-lead">Read what the public record says about housing in four Kettering neighborhoods. Availability has to be confirmed for your address.</p>
     <div class="pill-grid">{neighborhoods.map((n) => <a class="pill" href={u(`/neighborhood/${n.slug}/`)}>{n.name}</a>)}</div>
