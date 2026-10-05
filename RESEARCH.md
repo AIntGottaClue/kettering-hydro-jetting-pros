@@ -1,0 +1,11 @@
+# Kettering research sources
+- City history: https://www.ketteringoh.org/kettering-history/
+- City utilities (service line responsibility, age of neighborhoods): https://www.ketteringoh.org/utilities/
+- Streets FAQ (storm vs county sanitary sewer): https://www.ketteringoh.org/streets-frequently-asked-questions/
+- Southern Hills map: https://www.ketteringoh.org/2014-2015-southern-hills/southern-hills-gis-2-jpeg/
+- Van Buren map: https://www.ketteringoh.org/2022-van-buren/van-buren-neighborhood-map-jpeg/
+- Greenmont Village: https://www.wyso.org/news/2017-10-16/mutual-housing-experiment-still-going-strong-80-years-later
+- Ohio History Connection survey: https://www.ohiohistory.org/wp-content/uploads/2022/01/rp-23.pdf
+- Beavertown: https://www.beavercreekliving.com/book/item/54-book-thirtynine
+- EPA sewer cleaning: https://www.epa.gov/sites/default/files/2015-10/documents/csossortc2004_appendixl.pdf
+- EPA fats, oils, grease: https://www.epa.gov/system/files/documents/2021-07/pretreatment_foodservice_fs.pdf
