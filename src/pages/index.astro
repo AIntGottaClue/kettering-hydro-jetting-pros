@@ -71,4 +71,5 @@ const steps = [
     <p class="sec-lead">Read what the public record says about housing in four Kettering neighborhoods. Availability has to be confirmed for your address.</p>
     <div class="pill-grid">{neighborhoods.map((n) => <a class="pill" href={u(`/neighborhood/${n.slug}/`)}>{n.name}</a>)}</div>
   </div></section>
+<section class="nh-body"><div class="nh-inner"><p set:html={`For drain problems, read <a href="/services/recurring-clogs-and-slow-drains/">hydro jetting for recurring clogs and slow drains</a>, <a href="/services/severe-grease-and-sludge/">hydro jetting for grease and sludge</a>, <a href="/services/tree-root-intrusions/">hydro jetting for tree roots</a>, <a href="/services/mineral-and-scale-deposits/">Mineral buildup</a> and <a href="/services/preventative-maintenance/">preventative hydro jetting</a>.`.replace(/href="(\/[^"]*)"/g, (_m, h) => 'href="' + u(h) + '"')} /></div></section>
 </Base>
