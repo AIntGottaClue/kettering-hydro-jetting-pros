@@ -33,7 +33,7 @@ const steps = [
     <p class="sec-lead">Both clear lines. Neither repairs a damaged pipe, and neither should be picked from the symptom alone.</p>
     <div class="cmp">
       <article class="cmp-card"><h3>Hydro jetting</h3>
-        <p set:html={`<a href="${EPA}" ${ext}>The EPA sewer cleaning guidance</a> describes jetting as aiming a high-pressure stream of water at the blockage or debris, with the nozzle shape changed to suit the surface.`} />
+        <p set:html={`The EPA sewer cleaning guidance describes jetting as aiming a high-pressure stream of water at the blockage or debris, with the nozzle shape changed to suit the surface.`} />
         <p>It is described as most effective in smaller, slow-flowing pipes.</p></article>
       <article class="cmp-card"><h3>Power rodding</h3>
         <p>A small rod with a blade attachment turns inside the pipe, loosening debris and cutting roots that reach into it.</p>
@@ -51,7 +51,7 @@ const steps = [
       <span class="sec-kicker">Local housing</span>
       <h2 class="sec-title">Older neighborhoods, documented history</h2>
       <p class="sec-lead" style="margin:0">Kettering's housing history is on the public record, and it is useful context. It does not diagnose a pipe.</p>
-      <div class="callout-box"><p set:html={`<a href="${UTIL}" ${ext}>The city utilities page</a> says some Kettering neighborhoods are nearly 100 years old, and that a broken or collapsed service line to the sewer is the homeowner's repair.`} /></div>
+      <div class="callout-box"><p set:html={`The city utilities page says some Kettering neighborhoods are nearly 100 years old, and that a broken or collapsed service line to the sewer is the homeowner's repair.`} /></div>
     </div>
     <div class="lb-list">{neighborhoods.map((n) => <a class="lb" href={u(`/neighborhood/${n.slug}/`)}><h3>{n.name}</h3><p>{n.intro}</p></a>)}</div>
   </div></section>
